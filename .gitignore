@@ -1,0 +1,113 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment
+venv/
+
+# Ignore the database file
+db.sqlite3
+
+# Ignore static files
+/staticfiles/
+
+# Ignore media files
+/media/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore logs and other generated files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.orig
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore cache files
+__pycache__/
+
+# Ignore the secret key file
+secret_key.txt
+
+# Ignore Django secret key environment variable
+DJANGO_SECRET_KEY
+
+# Ignore local database configuration
+local_database_config.json
+
+# Ignore the coverage directory
+htmlcov/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore pytest cache
+__pycache__/
+.cachetests/
+
+# Ignore node modules
+node_modules/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore production files
+dist/
+build/
+*.pyc
+*.pyo
+
+# Ignore poetry lock file
+poetry.lock
+
+# Ignore logs and other generated files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.orig
+
+# Ignore pytest cache
+__pycache__/
+.cachetests/
+
+# Ignore coverage files
+coverage/
+
+# Ignore generated HTML documentation
+docs/_build/
+docs/api/
+
+# Ignore environment files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Heroku files
+Procfile
+runtime.txt
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore .env files
+.env.*
