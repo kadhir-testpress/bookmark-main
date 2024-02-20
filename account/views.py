@@ -35,6 +35,7 @@ def user_logout(request):
 def dashboard(request):
     return render(request, 'account/dashboard.html')
 
+
 def register(request):
     if request.method == 'POST':
         user_form = UserRegistrationForm(request.POST)
