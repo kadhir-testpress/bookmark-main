@@ -2,8 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from .forms import LoginForm, UserRegistrationForm
-from .models import Profile
+from .forms import LoginForm
 
 def user_login(request):
     if request.method == 'POST':
