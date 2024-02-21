@@ -33,3 +33,6 @@ def user_logout(request):
 @login_required(login_url='/account/login/')
 def dashboard(request):
     return render(request, 'account/dashboard.html')
+
+
+        
